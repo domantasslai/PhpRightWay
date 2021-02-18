@@ -1,1 +1,1 @@
-# PhpRightWay
+# PhpRightWay.
