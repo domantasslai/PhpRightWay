@@ -11,7 +11,7 @@
 
 <h1>
     <?php
-        'Hello from inside';
+        'Hello from insidess';
     ?>
 </h1>
 
