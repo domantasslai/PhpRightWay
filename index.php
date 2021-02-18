@@ -1,19 +1,26 @@
 <?php
 
-// Constants
+// Data types & Type Casting
 
-define('STATUS_PAID', 'paid');
+# 4 Scalar Types
+    # bool - true / false
+    $completed = false;
+    # int
+    $score = 75;
+    # float
+    $price = 7.45;
+    # string
+    $greeting = 'Hello';
 
-if(defined('STATUS_PAID122')){
-    echo 'Defined';
-} else {
-    echo 'Not Defined';
-}
+# 4 Compound Types
+    # array
+    $companies = [];
+    # object
 
-echo '<br>';
+    # callable
+    # iterable
 
-const STATUS_NOT_PAID = 'not payed';
-
-echo STATUS_NOT_PAID;
-echo '<br>';
-echo STATUS_PAID;
+# 2 Special Types
+    # resource
+    # null
+    ?>
