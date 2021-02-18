@@ -1,21 +1,11 @@
 <?php
 
-// Data types & Type Casting
+// BOOLEANS
 
-# 4 Scalar Types
-    # bool - true / false
-    # int
-    # float
-    # string
+$isCompleted = -0;
 
-# 4 Compound Types
-    # array
-    # object
-
-    # callable
-    # iterable
-
-# 2 Special Types
-    # resource
-    # null
-    ?>
+if ($isCompleted){
+    echo 'success';
+} else {
+    echo 'fail';
+}
